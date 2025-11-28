@@ -35,3 +35,14 @@ flowchart LR
   D --> E[Dashboards / Databricks SQL / BI Tools]
   C --> F[Data Quality Rules]
   F --> G[Alerts • Monitoring]
+
+
+flowchart LR
+  A[S3 / Raw Files] --> B[🥉 Bronze - Raw Ingest]
+  B --> C[🥈 Silver - Clean & Normalized]
+  C --> D[🥇 Gold - Aggregated Analytics Tables]
+  D --> E[PowerBI / Databricks SQL / Dashboards]
+
+  C --> F[Data Quality Rules • Validation]
+  F --> G[Monitoring & Alerts]
+

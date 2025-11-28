@@ -35,10 +35,3 @@ flowchart LR
   D --> E[Dashboards / Databricks SQL / BI Tools]
   C --> F[Data Quality Rules]
   F --> G[Alerts • Monitoring]
-
-| Table                       | Business Purpose             |
-| --------------------------- | ---------------------------- |
-| `gold.customer_ltv`         | Lifetime value per customer  |
-| `gold.orders_daily_agg`     | Revenue & order volume trend |
-| `gold.product_sales_ranked` | Top-N product performance    |
-

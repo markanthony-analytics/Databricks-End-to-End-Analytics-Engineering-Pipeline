@@ -46,3 +46,21 @@ flowchart LR
   C --> F[Data Quality Rules • Validation]
   F --> G[Monitoring & Alerts]
 
+📁 databricks-end-to-end-pipeline
+│── README.md  ← You are here
+│
+├── resources/
+│   ├── customers.csv
+│   ├── orders.csv
+│   └── transactions.json
+│
+├── notebooks/
+│   ├── 01_bronze_ingestion.py
+│   ├── 02_silver_transform.py
+│   ├── 03_gold_aggregation.py
+│   └── 04_dashboard_queries.sql
+│
+└── jobs/
+    └── databricks_workflow.json
+
+
